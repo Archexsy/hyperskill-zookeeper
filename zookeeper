@@ -126,7 +126,7 @@ while True:
     user_input = input("""Please enter the number of the habitat [1-6]
     \ryou would like to view or 'exit' to exit: """)
     if (user_input != 'exit') and (user_input in ['1', '2', '3', '4', '5', '6']):
-        print(animals[int(user_input) - 1])  # print proper (starting from zero) element of the list
+        print(animals[int(user_input) - 1])  # Print proper (starting from zero) element of the list
     else:
         print("\nSee you later!")
         break
